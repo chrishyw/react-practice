@@ -16,7 +16,8 @@ import Chart from "./Component/Chart"
 class App extends Component {
 
   constructor(){
-    console.log("more test");
+    console.log("more test from test!");
+    //more stuff!
     super();
     this.state = {
       searchResult: "",
