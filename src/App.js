@@ -16,11 +16,6 @@ import Chart from "./Component/Chart"
 class App extends Component {
 
   constructor(){
-<<<<<<< HEAD
-    //master comment!!
-=======
-    // test comment!
->>>>>>> test
     super();
     this.state = {
       searchResult: "",
