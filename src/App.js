@@ -18,6 +18,7 @@ class App extends Component {
   constructor(){
     console.log("more test from test!");
     //more stuff!
+    //hahaSDAFASDFSDAFASD
     super();
     this.state = {
       searchResult: "",
