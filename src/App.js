@@ -191,6 +191,7 @@ class App extends Component {
   }
 
   formSubmit = (e) => {
+    console.log("test");
     e.preventDefault();
     this.setState({searchResult: this.searchResult});
     this.searchResult.trim().length > 1 ? alert("form submitted!") : alert("empty input or not long enough!");
