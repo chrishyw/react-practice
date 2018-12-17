@@ -16,6 +16,7 @@ import Chart from "./Component/Chart"
 class App extends Component {
 
   constructor(){
+    // a new master comment!
     super();
     this.state = {
       searchResult: "",
