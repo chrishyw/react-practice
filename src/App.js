@@ -16,8 +16,8 @@ import Chart from "./Component/Chart"
 class App extends Component {
 
   constructor(){
-
-    super();asdfasdlfkhasdflkja s;dlfkja s;dlfkjas;dlfkja s;lkj 
+    //master comment!!
+    super();
     this.state = {
       searchResult: "",
       data: null,
