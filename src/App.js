@@ -16,6 +16,7 @@ import Chart from "./Component/Chart"
 class App extends Component {
 
   constructor(){
+    console.log("more test");
     super();
     this.state = {
       searchResult: "",
@@ -191,6 +192,7 @@ class App extends Component {
   }
 
   formSubmit = (e) => {
+    console.log("test");
     e.preventDefault();
     this.setState({searchResult: this.searchResult});
     this.searchResult.trim().length > 1 ? alert("form submitted!") : alert("empty input or not long enough!");
