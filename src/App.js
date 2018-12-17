@@ -17,6 +17,7 @@ class App extends Component {
 
   constructor(){
     console.log("hello from test");
+    // saldfja;sldkfj;alkj
     super();
     this.state = {
       searchResult: "",
